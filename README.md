@@ -2,7 +2,7 @@
 A flask web application that checks for closed eyes via the browser camera. The result is updated live. Contains settings to adjust both the face detection threshold (e.g. if the app isn't detecting your face, you can turn it up) or sensitivity for closed eyes (i.e. how sensitive the app is to shut eyes, should be calibrated depending on the environment and lighting).
 
 ## Credits
-Thanks to [Sarcovora](https://github.com/Sarcovora), [amritapasu](https://github.com/amritapasu), [caasib](https://github.com/caasib), and [elainejiangg](https://github.com/elainejiangg), for collaborating on the machine learning component of this project at MIT BeaverWorks.
+Thanks to [Sarcovora](https://github.com/Sarcovora), [amritapasu](https://github.com/amritapasu), [caasib](https://github.com/caasib), and [elainejiangg](https://github.com/elainejiangg), for collaborating on the machine learning component of this project at MIT BeaverWorks. The original project is [here](https://github.com/Sarcovora/CogWorks-2022-Gausslien-Final-Capstone).
 
 ## Server Side Python Dependencies
 - numpy
