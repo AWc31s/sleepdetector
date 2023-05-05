@@ -1,5 +1,5 @@
 # Sleep Detector
-A flask web application that checks for closed eyes via the browser camera and image processing with machine learning in the Python server backend. The result is then updated live on the frontend webpage with colors and text.
+A Flask web application that checks for closed eyes via the browser camera and image processing with machine learning in the Python server backend. The result is then updated live on the frontend webpage with colors and text.
 
 Contains settings to adjust both the face detection threshold (e.g. if the app isn't detecting your face, you can turn it up) or sensitivity for closed eyes (i.e. how sensitive the app is to shut eyes, should be calibrated depending on the environment and lighting).
 
