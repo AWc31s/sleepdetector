@@ -1,5 +1,7 @@
 # Sleep Detector
-A flask web application that checks for closed eyes via the browser camera. The result is updated live. Contains settings to adjust both the face detection threshold (e.g. if the app isn't detecting your face, you can turn it up) or sensitivity for closed eyes (i.e. how sensitive the app is to shut eyes, should be calibrated depending on the environment and lighting).
+A flask web application that checks for closed eyes via the browser camera. The result is updated live on the webpage with colors and text.
+
+Contains settings to adjust both the face detection threshold (e.g. if the app isn't detecting your face, you can turn it up) or sensitivity for closed eyes (i.e. how sensitive the app is to shut eyes, should be calibrated depending on the environment and lighting).
 
 Run the main.py file to start the flask server locally.
 
@@ -13,6 +15,9 @@ Thanks to [Sarcovora](https://github.com/Sarcovora), [amritapasu](https://github
 - SocketIO
 - Torchvision
 - [facenet_models](https://github.com/CogWorksBWSI/facenet_models)
+
+## Client Side
+- Uses jQuery and SocketIO
 
 ## Examples
 ![Eyes Open](https://user-images.githubusercontent.com/47835799/236577098-b164964a-6f23-45f7-96b8-45d90695db1e.png)
