@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sleep Detector</title>
+
+    <style>
+     #container {
+      background-color: lightblue;
+     }
+    </style>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://cdn.socket.io/4.6.0/socket.io.min.js"></script>
+  </head>
+
+  <body>
+
+    <div id="container" style="display:flex">
+      <video autoplay playsinline id="videoElement"></video>
+      <canvas id="canvas" width="400" height="300"></canvas>
+      <h1 id="textupdate"></h1>
+    </div>
+
+    <div id="settings">
+      <h2>Settings</h2>
+      <div class="slidecontainer" id="sensitivity1" style="display:flex">
+        <p>Sensitivity for Closed Eyes</p>
+        <input type="range" min="-50" max="100" value="0" class="slider" id="eyeRange">
+        <p id="sensitivitylabel1">0</p>
+      </div>
+      <div class="slidecontainer" id="sensitivity2" style="display:flex">
+        <p>Face Detection Threshold</p>
+        <input type="range" min="0" max="100" value="70" class="slider" id="faceRange">
+        <p id="sensitivitylabel2">97</p>
+      </div>
+    </div>
+    <script src="{{ url_for('static',filename='script.js') }}"></script>
+  </body>
+
+</html>
