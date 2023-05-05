@@ -2,7 +2,7 @@
 A flask web application that checks for closed eyes via the browser camera.
 
 ## Credits
-Thanks to [Sarcovora](https://github.com/Sarcovora), [amritapasu](https://github.com/amritapasu), [caasib](https://github.com/caasib), and [elainejiangg](https://github.com/elainejiangg), for collaborating on the machine learning model and image processing python code at MIT BeaverWorks.
+Thanks to [Sarcovora](https://github.com/Sarcovora), [amritapasu](https://github.com/amritapasu), [caasib](https://github.com/caasib), and [elainejiangg](https://github.com/elainejiangg), for collaborating on the machine learning component of this project at MIT BeaverWorks.
 
 ## Server Side Python Dependencies
 - numpy
