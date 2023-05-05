@@ -13,6 +13,7 @@ Thanks to [Sarcovora](https://github.com/Sarcovora), [amritapasu](https://github
 - [facenet_models](https://github.com/CogWorksBWSI/facenet_models)
 
 ## Examples
-![brave_fdIXjlvp0C](https://user-images.githubusercontent.com/47835799/236370260-df23a5ac-0c6d-4638-8c24-1a509ed6fb0c.png)
-![brave_h6W5Gd1qFR](https://user-images.githubusercontent.com/47835799/236370262-6a4c73c8-71a0-4ee5-a669-12bb9f87d525.png)
-![brave_vbIxlbLEoW](https://user-images.githubusercontent.com/47835799/236370266-95a540f9-5d22-4041-aec6-a8d43c2f4dec.png)
+![Eyes Open](https://user-images.githubusercontent.com/47835799/236577098-b164964a-6f23-45f7-96b8-45d90695db1e.png)
+![Eyes Closed](https://user-images.githubusercontent.com/47835799/236577099-842ea20a-1763-4592-bdb2-6ebfafc72338.png)
+![No face detected](https://user-images.githubusercontent.com/47835799/236577095-466a1702-f4a3-419b-8678-0cba02cb7171.png)
+
